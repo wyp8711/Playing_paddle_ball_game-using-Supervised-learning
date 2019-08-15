@@ -30,4 +30,4 @@ If you wanna train within the shortest possible time, you can comment ["self.clo
 If you wanna test within the shortest possible time, you can comment ["self.clock.tick(60)"line 106]&["pygame.time.wait(600)"line 98].
 
 
-There is a final model in "Final_model.zip".
+**There is a final model in "Final_model.zip".**
