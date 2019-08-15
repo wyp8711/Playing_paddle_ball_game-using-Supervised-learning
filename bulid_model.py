@@ -2,11 +2,11 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation, Flatten, Conv2D,MaxPool2D,BatchNormalization
 from keras.optimizers import SGD
 #--------------------------------------display model--------------------
-import os
-from IPython.display import SVG
-from keras.utils.vis_utils import model_to_dot
-from keras.utils import plot_model#Save model.png
-os.environ["PATH"] += os.pathsep + 'C:\\Program Files (x86)\\Graphviz2.38\\bin'
+#import os
+#from IPython.display import SVG
+#from keras.utils.vis_utils import model_to_dot
+#from keras.utils import plot_model#Save model.png
+#os.environ["PATH"] += os.pathsep + 'C:\\Program Files (x86)\\Graphviz2.38\\bin'
 #-----------------------------------------------------------------------
 def bulid_model(label,imagesize_x,imagesize_y):
 	model = Sequential()
@@ -27,7 +27,7 @@ def bulid_model(label,imagesize_x,imagesize_y):
 	model.compile(optimizer=opt,loss='categorical_crossentropy', metrics=['accuracy']) 
 	#-------------------display model-------------------
 	model.summary()
-	display(SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg')))#Show model in message box
-#	os.system("del Z:\model.png /f /q" )#Delete old model.png
-#	plot_model(model, show_shapes=True, to_file='Z:\model.png')#Save model.png
+	#display(SVG(model_to_dot(model, show_shapes=True).create(prog='dot', format='svg')))#Show model in message box
+	#os.system("del Z:\model.png /f /q" )#Delete old model.png
+	#plot_model(model, show_shapes=True, to_file='Z:\model.png')#Save model.png
 	return model
