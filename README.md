@@ -15,14 +15,14 @@ https://blog.csdn.net/chencaw/article/details/78308685
 * pygame
 
 # How to training and testing
-1.Run "game_train.py"
-First. The program create random data for first run.
-It's gonna train about 3 times, and restart game when score=500(Good for test).
-It will close when restart game 10 times.
-If you wanna train within the shortest possible time, you can comment ["self.clock.tick(60)"line 231]&["pygame.time.wait(600)"line 223].
+1.Run "game_train.py"\n
+First. The program create random data for first run.\n
+It's gonna train about 3 times, and restart game when score=500(Good for test).\n
+It will close when restart game 10 times.\n
+If you wanna train within the shortest possible time, you can comment ["self.clock.tick(60)"line 231]&["pygame.time.wait(600)"line 223].\n
+\n
+2.Run "game_auto(predict).py"\n
+If you wanna test within the shortest possible time, you can comment ["self.clock.tick(60)"line 106]&["pygame.time.wait(600)"line 98].\n
+\n
 
-2.Run "game_auto(predict).py"
-If you wanna test within the shortest possible time, you can comment ["self.clock.tick(60)"line 106]&["pygame.time.wait(600)"line 98].
-
-
-There is a final model in "Final_model.zip".
+There is a final model in "Final_model.zip".\n
