@@ -1,7 +1,7 @@
 # Playing_paddle_ball_game-using-Supervised-learning
 Playing paddle ball game using Supervised Learning
 
-# date: 2019.07.09
+# Date: 2019.08.16
 
 # Reference source
 https://blog.csdn.net/chencaw/article/details/78308685
