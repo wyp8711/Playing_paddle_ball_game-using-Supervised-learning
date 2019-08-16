@@ -6,7 +6,8 @@ Playing paddle ball game using Supervised Learning
 # Reference source
 https://blog.csdn.net/chencaw/article/details/78308685
 
-# Training and Testing video
+# Training video
+https://youtu.be/SFetIIa6L9w
 
 # Pre-requisites
 * Python (tested on 3.5)
